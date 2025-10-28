@@ -35,7 +35,6 @@ print("Age:", age)
 hungry = False
 print("Hungry:", hungry)
 
-
 # # Example combining them all:
 print(f"{name} is {age} years old. Hungry? {hungry}")
 
