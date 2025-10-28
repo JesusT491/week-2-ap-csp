@@ -40,14 +40,21 @@ print("name", MyName.capitalize())
 # # Find the length of the string
 print("Length of phrase:", len(phrase))  # Output: 14
 declaration_of_independence = "When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation"
-print(len(declaration_of_independence))
+print("The Declaration of Independence is", len(declaration_of_independence), "words long")
+
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
 
+chicago_mayor = "Johnson"
+print(len(chicago_mayor))
+print(chicago_mayor[0])
+print(chicago_mayor[4])
+print(chicago_mayor[-1])
+
 # # Indexing: Access characters by position (0-based index)
-# print("First character:", phrase[0])  # Output: P
-# print("Last character:", phrase[-1])  # Output: !
+print("First character:", phrase[0])  # Output: P
+print("Last character:", phrase[-1])  # Output: !
 
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
