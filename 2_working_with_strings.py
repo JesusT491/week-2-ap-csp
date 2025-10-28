@@ -47,6 +47,16 @@ print("The Declaration of Independence is", len(declaration_of_independence), "w
 # # ----------------------------------------
 
 chicago_mayor = "Johnson"
+
+#index slicing
+print(chicago_mayor[0:4]) #prints out john, because 0:4 makes it stop at the 4th letter of johnson
+print(chicago_mayor[4:7]) #prints out son, because 4:7 makes it start at S and end at N
+
+print(chicago_mayor[0:5])
+#the first number is inclusive
+#the last number is exclusive
+
+#indexing
 print(len(chicago_mayor))
 print(chicago_mayor[0])
 print(chicago_mayor[4])
