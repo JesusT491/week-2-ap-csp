@@ -1,6 +1,5 @@
-
 # ----------------------------------------
-# . Working with Strings
+# Working with Strings
 # ----------------------------------------
 
 # Strings are sequences of characters enclosed in quotes (' ' or " ")
@@ -22,17 +21,26 @@ print("Concatenated String:", message)  # Output: Hello World
 phrase = "Python is FUN!"
 
 # # Convert all characters to lowercase
-# print("Lowercase:", phrase.lower())  # Output: python is fun!
+print("Lowercase:", phrase.lower())  # Output: python is fun!
 
 # # Convert all characters to uppercase
-# print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
+print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
+
+MyName = "Jesus Torres"
+print("uppercase: ", MyName.upper())
+print("lowercase: ", MyName.lower())
 
 # # Check if all characters are uppercase
-# print("Is Uppercase?", phrase.isupper())  # Output: False
+print("Is Uppercase?", phrase.isupper())  # Output: False
+print("name ", MyName.isupper())
+
+#capitalization
+print("name", MyName.capitalize())
 
 # # Find the length of the string
-# print("Length of phrase:", len(phrase))  # Output: 14
-
+print("Length of phrase:", len(phrase))  # Output: 14
+declaration_of_independence = "When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation"
+print(len(declaration_of_independence))
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
