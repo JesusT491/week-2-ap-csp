@@ -53,8 +53,8 @@ print(chicago_mayor[0:4]) #prints out john, because 0:4 makes it stop at the 4th
 print(chicago_mayor[4:7]) #prints out son, because 4:7 makes it start at S and end at N
 
 print(chicago_mayor[0:5])
-#the first number is inclusive
-#the last number is exclusive
+#the first number is EXCLUSIVE
+#the last number is EXCLUSIVE
 
 #indexing
 print(len(chicago_mayor))
@@ -68,7 +68,6 @@ print("Last character:", phrase[-1])  # Output: !
 
 phrase3 = "supercagifragiltic"
 slice1 = phrase3[0:4]
-slice2 = 
 print(phrase3.upper())
 
 
