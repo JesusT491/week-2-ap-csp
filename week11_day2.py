@@ -36,15 +36,17 @@ print(age + 5)
 # Ask the user two questions and combine answers
 
 question1 = input("What is your favorite movie?: ")
-question2 = input("what would you rate the movie out of ten?: ")
+question2 = input("What would you rate the movie out of ten?: ")
 
-print("My favorite movie is ", question1, "and I would rate it a", question2, "out of 10")
+# print("My favorite movie is ", question1, "and I would rate it a", question2, "out of 10")
+
+print(f"My favorite movie is {question1} and I would rate it a {question2} out of 10 ")
 
 
 # ⚙️ Step 5: Final Challenge (combine it all)
 # Use math and strings together
 
 MathQuestion = 5 / 3
-Math_Input = int(input("What is 5 / 3?: "))
+Math_Input = float(input(f"What is 5 / 3?: "))
 
 print("My answer is".upper(), Math_Input)
