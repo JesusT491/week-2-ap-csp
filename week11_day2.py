@@ -46,7 +46,9 @@ print(f"My favorite movie is {question1} and I would rate it a {question2} out o
 # ⚙️ Step 5: Final Challenge (combine it all)
 # Use math and strings together
 
-MathQuestion = 5 / 3
-Math_Input = float(input(f"What is 5 / 3?: "))
+MathQuestion = 6 / 3
+Math_Input = float(input(f"What is 6 / 3?: "))
+if Math_Input == MathQuestion:
+    print("The answer is correct")
 
 print("My answer is".upper(), Math_Input)
