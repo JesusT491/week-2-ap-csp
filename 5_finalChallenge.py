@@ -19,7 +19,7 @@
 # Cheers and good luck.
 
 
-Question_1 = input("what number is after 5")
-Question_2 = input("What number is after 6")
+Question_1 = input("what number is after 5?: ")
+Question_2 = input("What number is after 6?: ")
 
 print(Question_1 + Question_2)
