@@ -68,11 +68,12 @@ print(bbsummary)
 # print the summary in lowercase
 print(bbsummary.lower())
 # replace the word blue with red
-print(bbsummary.replace("Blue", "Red"))
+summaryreplace = bbsummary.replace("Blue", "Red")
 # print the summary
-
+print(summaryreplace)
 # string index the word beetle and print it out
-
+wordindex = bbsummary[50:56]
+print(str(wordindex))
 # print the last word of the summary
 last_word = bbsummary.split()[-1]
 print(last_word)

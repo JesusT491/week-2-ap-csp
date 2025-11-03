@@ -17,3 +17,9 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+
+Question_1 = input("what number is after 5")
+Question_2 = input("What number is after 6")
+
+print(Question_1 + Question_2)
